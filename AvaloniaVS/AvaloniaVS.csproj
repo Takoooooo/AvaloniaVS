@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <UseCodebase>true</UseCodebase>
   </PropertyGroup>
@@ -109,16 +109,11 @@
     <PackageReference Include="Avalonia.dnlib">
       <Version>2018.11.26-git-67c321d7a4219415492a910d22c95f5efb0c30b8</Version>
     </PackageReference>
-    <PackageReference Include="Madskristensen.VisualStudio.SDK">
-      <Version>15.8.81-pre</Version>
-    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.ProjectSystem">
       <Version>15.8.243</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="15.9.3032">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.0.0-previews-1-31325-273" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.1619-preview1" />
     <PackageReference Include="Serilog">
       <Version>2.8.0</Version>
     </PackageReference>
