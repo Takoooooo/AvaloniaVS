@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28516.95
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaVS", "AvaloniaVS\AvaloniaVS.csproj", "{2E6545DC-EF98-4C53-853B-C3307CB43A3F}"
 EndProject
@@ -63,7 +63,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaResourceDictionaryT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaStylesTemplate", "templates\AvaloniaStylesTemplate\AvaloniaStylesTemplate.csproj", "{9FEF480A-5A56-489D-AD89-53970FD2B2A1}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AvaloniaVS.Shared", "AvaloniaVS.Shared\AvaloniaVS.Shared.shproj", "{D5B05CAA-DADD-43BF-96A4-6B931CF92ECB}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AvaloniaVS.Shared\AvaloniaVS.Shared.projitems*{2e6545dc-ef98-4c53-853b-c3307cb43a3f}*SharedItemsImports = 4
+		AvaloniaVS.Shared\AvaloniaVS.Shared.projitems*{d5b05caa-dadd-43bf-96a4-6b931cf92ecb}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
